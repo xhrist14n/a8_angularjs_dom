@@ -9,9 +9,8 @@
  */
 angular.module('adminApp')
   .controller('MainCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+        var id="main";
+    	activeMenu(id);
+        $scope.curso='Desarrollo de Aplicaciones Web con AngularJS - DOM (Document Object Model)';
+        $scope.autor='Christian Portilla Pauca';
   });

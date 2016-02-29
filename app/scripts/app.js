@@ -23,6 +23,18 @@ angular
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
+      .when('/disable', {
+        templateUrl: 'views/disable.html',
+        controller: 'DisabledCtrl'
+      })
+      .when('/show', {
+        templateUrl: 'views/show.html',
+        controller: 'ShowCtrl'
+      })
+      .when('/hide', {
+        templateUrl: 'views/hide.html',
+        controller: 'HideCtrl'
+      })
       .when('/about', {
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl'
