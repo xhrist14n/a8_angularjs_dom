@@ -17,5 +17,6 @@ angular.module('adminApp')
   .controller('ShowCtrl', function ($scope) {
         var id="show";
     	activeMenu(id);
+        $scope.mySwitch=false;
   });
 
